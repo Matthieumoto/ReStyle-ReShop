@@ -1,0 +1,118 @@
+body {
+    font-family: Arial;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color :rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(0, 237, 205); 
+}
+
+hr {
+    border-top: 5px solid rgb(0, 0, 0); 
+    margin: 10px; 
+}
+
+.boutique {
+    color: grey;
+}
+
+@media screen and (min-width:1024px) {
+    .titre {
+        color :rgb(0, 237, 205);
+        font-size: 70px; 
+        text-align: left;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    .sous-titre {
+        font-size: 35px; 
+    }
+
+    .icon {
+        float: left;
+        margin-right: 10px;
+        height: 80px;
+    }
+
+    .liens {
+        display: flex;
+        flex-direction:row;
+        font-size: 30px;
+        position: absolute;
+        margin-top: 1%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .liens a {
+        margin-left: 20px;
+    }
+
+    .compte {
+        position: absolute;
+        margin-top: -100px;
+        margin-left: 90%;
+        height: 80px;
+    }
+
+    .i-c {
+        font-size: 20px; 
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 70%;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .titre {
+        color :rgb(0, 216, 166);
+        font-size: 50px; 
+        text-align: left;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    .sous-titre {
+        font-size: 25px; 
+    }
+
+    .icon {
+        float: left;
+        height: 50px;
+        margin-right: 5px;
+    }
+
+    .liens {
+        display: flex;
+        flex-direction:row;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .liens a {
+        margin-left: 10px;
+    }
+
+    .compte {
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 90%;
+        height: 80px;
+    }
+
+    .i-c {
+        font-size: 15px; 
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 70%;
+    }
+}
