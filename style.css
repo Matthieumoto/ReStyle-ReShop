@@ -71,7 +71,7 @@ hr {
 
 @media screen and (max-width:1023px) {
     .titre {
-        color :rgb(0, 216, 166);
+        color :rgb(0, 237, 205);
         font-size: 50px; 
         text-align: left;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
